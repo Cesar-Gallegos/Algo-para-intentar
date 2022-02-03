@@ -1,0 +1,36 @@
+body {
+    background-image: url(imagenes/fondo1.webp);
+    background-repeat: repeat;
+    font-size: 30px;
+}
+h1{
+    color: black;
+}
+p{
+    color: black;
+}
+img#img-doctor1{
+    border: 5px solid black;
+    border-right: 10px solid black;
+    border-width: 10px solid black;
+    height: 250px;
+    width: auto;
+}
+img#img-clinca2{
+    border: 5px solid black;
+    border-right: 10px solid black;
+    height: 250px;
+    width: auto;
+}
+img#img-clinca3{
+    border: 5px solid black;
+    border-right: 10px solid black;
+    height: 250px;
+    width: auto;
+}
+img#img-doctor2{
+    border: 5px solid black;
+    border-right: 10px solid black;
+    height: 300px;
+    width: auto;
+}
