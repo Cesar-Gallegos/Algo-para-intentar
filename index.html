@@ -8,25 +8,53 @@
     <link href="estilopagina1.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1> Bienvenidos a clínicas BuenaSalud</h1>
-    <p> Registrate en nuestra pagina para:
-        - Ver sus fichas clinicas
-        - Agendar hora de Atención
-        - Poder resolver consultas con nuestros Doctores
-        - Etc.
-    </p>
+
+    <div class="bienvenida">
+
+       <h1> Bienvenidos a clínicas BuenaSalud</h1>
+
+    </div>
+    <br><br>
+    
+    <div class="enlaces">
+    <ul>
+      <li>
+        <a href="index.html"></a>Registro Paciente</a>
+      </li>
+      <li>
+        <a href="fichas.html">Listado Pacientes</a>
+      </li>
+    </ul>
+    </div>
+    
+
+    <div class="h2">
+        <h2>Registrate en nuestro sitio para:</h2>    
+    </div>
+
+    <div class="lista">
+      <ul>
+        <li> Ver sus fichas clinicas</li>
+        <li> Agendar hora de Atención</li>
+        <li> Poder resolver consultas con nuestros Doctores</li>
+        <li> Etc.</li>
+      </ul>
+    </div>
 
     <img id="img-doctor1" src="imagenes/índice.jpg" alt="Doctor generico dibujo"/>
     <img id="img-clinca2" src="imagenes/clinica2.jpg"/>
     <img id="img-clinca3" src="imagenes/clinica3.jpg"/>
-    <img id="img-doctor2" src="imagenes/happy-happy-doctor.gif"/>     
-    <h1>!Registrate aqui¡</h1>
+    <img id="img-doctor2" src="imagenes/happy-happy-doctor.gif"/>
     
-<fieldset>
+    <div class="vamooo">
+    <h1>!Registrate aqui¡</h1>
+    </div> 
+
+  <fieldset>
     <form action="" method="get">
-         <div class="form-line">
+         <div class="formulario">
           
-             <legend>Datos personales:</legend>
+             <legend>Datos personales:</legend><br>
              <label for="Nombres">Nombres:</label>
              <input type="text" id="Nombres" name="Nombres" placeholder="Juan Clemente"><br><br>
              <label for="Apellidos">Apellidos:</label>
@@ -37,24 +65,22 @@
              <input type="email" id="email" name="email" placeholder="arriagadajuan123@gmail.com"><br><br>
              <label for="birthday">Fecha de nacimiento:</label>
              <input type="date" id="birthday" name="birthday"><br><br>
-            
-           </div>   
-  
-         <div class="form-line">  
+           
             <p>Género:</p>
              <input type="radio" id="masculino" name="genero" value="masculino">
              <label for="masculino"> Masculino</label><br>
              <input type="radio" id="femenino" name="genero" value="femenino">
              <label for="femenino">Femenino</label><br><br>     
-             <input type="submit" value="Registrar">    
-        </div>
-
+               
+            <button type="submit">Suscribir</button>
+            </div>
+     </fieldset>
         
     </form>
-</fieldset>
 
 
 
-</form>
+
 </body>
+
 </html>

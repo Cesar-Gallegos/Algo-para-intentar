@@ -2,35 +2,103 @@ body {
     background-image: url(imagenes/fondo1.webp);
     background-repeat: repeat;
     font-size: 30px;
+    text-align: center;
 }
-h1{
-    color: black;
+div.h2{
+    background-color: black;
+    border-radius: 20px;
+    width: 700px;
+    color: white;
+    margin: auto;
 }
-p{
-    color: black;
-}
+
 img#img-doctor1{
     border: 5px solid black;
     border-right: 10px solid black;
     border-width: 10px solid black;
     height: 250px;
     width: auto;
+    
 }
 img#img-clinca2{
     border: 5px solid black;
     border-right: 10px solid black;
     height: 250px;
     width: auto;
+    
 }
 img#img-clinca3{
     border: 5px solid black;
     border-right: 10px solid black;
     height: 250px;
     width: auto;
+    
 }
 img#img-doctor2{
     border: 5px solid black;
     border-right: 10px solid black;
     height: 300px;
     width: auto;
+   
+}
+div.bienvenida{
+    background-color: rgb(98, 187, 238);
+    border-radius: 20px;
+    width: 900px;
+    margin: auto;
+}
+div.enlaces{
+    color: rgb(88, 139, 10);
+}
+div.vamooo{
+    background-color: black;
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+    color: white;
+}
+div.lista{
+    background-color: rgb(98, 187, 238);
+    width: 800px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: auto;
+}
+fieldset{
+    background-color: rgb(9, 33, 65);
+    width: 300px;
+    border-radius: 20px;
+    margin: auto;
+    
+
+}
+div.formulario{
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 5%;
+    text-align: left;
+}
+button{
+    background-color: rgb(29, 129, 187);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: right;
+}
+input{
+    font-size: 20px;
+    padding: 5px 5px;
+    
+}
+/*aqui empieza las tablas*/
+tr.par{
+    background-color: aqua;
+}
+tr.impar{
+    background-color: aquamarine;
+}
+tr{
+    font-size: 30px;
 }
